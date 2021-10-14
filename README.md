@@ -8,8 +8,8 @@ Spatiotemporal forecasting.
 2. Climate resilience
 3. Neuroscience
 
-**Experimental observation**
-I have built models using tensorflow in one notebook and using pytorch in another for the same problem.
+**Important Experimental Observation**
+I have built models using tensorflow in one notebook and using pytorch in another for the same problem. The tensorflow model had more number of neurons in the second hidden layer than the model built in pytorch but I have observed that the same computation power was sufficient to train the tensorflow model for 2 epochs but wasn't sufficient for even 1 epoch training of the pytorch model. Also note that the size of the dataset taken was same for both the models.
 
 
 **An intriguing point on this topic**
